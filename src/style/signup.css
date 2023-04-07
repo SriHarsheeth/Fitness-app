@@ -1,0 +1,102 @@
+
+.signup-mainpage{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsla(0, 0%, 86%, 0.534);
+    position: relative;
+    text-align: center;
+ }
+  .signup-page{
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    /* top: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 20px;    
+
+  }
+  .signup-container{
+      padding-top: 20px;
+    background-color: rgba(220, 220, 220, 0.534);
+    width: 380px;
+    height: auto;
+    border-radius: 8px;
+    padding: 15px;
+   margin: auto;
+   
+  
+  }
+  .signup-page hr{
+    border-style: none;
+    height: 2px;
+    margin: 5px;
+   background-color: white;
+  } 
+  .signup-container input{
+    padding: 3px;
+    margin:5px auto;
+    outline: none;
+    border-color: aliceblue;
+    border-radius: 4px;
+  }
+  .signup-container fieldset{
+    width: 250px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .signup-container fieldset input[type='radio']{
+  padding: 2px;
+  margin: 10px auto;
+  margin-left: 10px;
+  accent-color: yellow;
+  
+  /* display: inline-block;
+  width: 15px;
+  height: 20px; */
+  
+  }
+  
+  .signup-container input[type="submit"]{
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+   margin-top: 20px;
+    font-size: 20px;
+  }
+  .signup-bottom{
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .signup-bottom button{
+   margin-left: 5px;
+   
+   padding: 5px;
+   width: 120px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+  background-color: yellow;
+  border-style: none;
+  border-radius: 10px;
+    }
+    .signup-bottom button a{
+      text-decoration: none;
+      color: black;
+    }

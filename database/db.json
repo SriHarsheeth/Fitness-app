@@ -1,0 +1,59 @@
+{
+  "user": [
+    {
+      "username": "dummy",
+      "email": "",
+      "password": "dummy",
+      "age": "",
+      "id": 1
+    },
+    {
+      "username": "sri harsheeth j",
+      "email": "sriharsheethj@gmail.com",
+      "password": "boss6055",
+      "age": "26",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "username": "jaggu",
+      "email": "jaggu@123",
+      "password": "jaggu",
+      "age": "25",
+      "gender": "male",
+      "id": 3,
+      "bmi": 24.39,
+      "health": "Normal"
+    }
+  ],
+  "trainer": [
+    {
+      "username": "dummy",
+      "password": "dummy",
+      "id": 1
+    },
+    {
+      "username": "Dboss",
+      "email": "dboss@7999",
+      "password": "7999",
+      "age": "46",
+      "gender": "male",
+      "id": 2
+    }
+  ],
+  "workout": [
+    {
+      "workout": "dummy",
+      "calories": "",
+      "id": 1
+    },
+    {
+      "bodyPart": "cardio",
+      "equipment": "body weight",
+      "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/3220.gif",
+      "name": "astride jumps",
+      "target": "cardiovascular system",
+      "id": 2
+    }
+  ]
+}

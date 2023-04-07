@@ -1,0 +1,159 @@
+nav{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    height: 80px;
+    padding: 0 90px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    z-index: 1000;
+    
+}
+.logo{
+    background-color: #f7DF1E;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 10px 0px;
+   color: black;
+    
+}
+nav a{
+  text-decoration:none
+}
+.logo i{
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: grey;
+   margin:0px 10px
+}
+.logout button{
+    background-color: #f7DF1E;
+    padding: 0px 10px ;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.logout button:hover{
+    background-color: black;
+    color: #f7DF1E;
+}
+.hambergs{
+     display: none;
+}
+.menu{
+    display: none;
+}
+
+.dashboard .s1{   
+    background: linear-gradient(90deg,white,transparent),url("https://fit-bit-sigma.vercel.app/static/media/gymbg.a1906ebd103042384795.jpg");
+    height: 600px;
+    width: 100vw;  
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .dashboard .s1 div{
+    margin-left: 50px;
+  }
+  .dashboard .s1 h1{
+    font-size: 45px;
+    width: 600px;
+  }
+  .s2{
+    width: 100vw;
+    height: 90vh;
+    padding: 50px;
+  }
+  .s2 .header{
+    width: 500px;
+    text-align: center;
+    margin: 30px auto;
+  }
+
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+ .card{
+text-align: center;
+     width: 250px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+   
+    flex-direction: column;
+    
+  }
+  .card img{
+    width: 100%;
+    height: 100%;
+  }
+ 
+
+
+@media(max-width:910px)
+{
+  .nav-links{
+    display: none;
+  }
+
+  .logout{
+    display: none;
+  }
+   nav{
+    justify-content: center;
+  }
+  .hambergs{
+    display: block;
+    position: absolute;
+    right: 20px;
+  }
+  .hambergs i{
+    font-size: 35px;
+  }
+  .menu{
+    padding: 0px 10px;
+    display: flex;
+    width: 130px;
+    height: 190px;
+    flex-direction: column;
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    border-radius: 0px 15px;
+    border:  solid grey;
+    background: rgba(128, 128, 128, 0.897);
+    
+    animation:  menu 1s linear; 
+  }
+  @keyframes menu {
+    0%{
+      height: 0px;
+    }
+    100%{
+      height: 190px;
+    }
+    
+  }
+  .menu a{
+    text-decoration: none;
+    color: black;
+    margin: 1px 3px;
+    text-align: right;
+  }
+  .dashboard .s1 h1{
+    font-size: 45px;
+    width: 250px;
+  }
+
+}
