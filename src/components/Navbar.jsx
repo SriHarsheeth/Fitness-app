@@ -22,7 +22,7 @@ const Navbar = () => {
        {  path!=="/trainerdashboard" &&  
        <>   <Link to={""}>Trainers</Link>
         <Link to={"/workout"} >Workouts</Link>
-        <Link to={""} >My Workouts</Link>
+        <Link to={"/myworkouts"} >My Workouts</Link>
         <Link to={"/bmr"} >BMR calculator</Link>
         <Link to={""} >Profile</Link> </>
         }

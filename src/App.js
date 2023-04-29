@@ -11,6 +11,7 @@ import Protect from './components/Protect';
 import Bmr from './components/Bmr';
 import TrainerDashboard from './components/TrainerDashboard';
 import Workout from './components/Workout';
+import Myworkouts from './components/Myworkouts';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/bmr' element={<Protect child={<Bmr/>}/>}/>
           <Route path='/trainerdashboard' element={<Protect child={<TrainerDashboard/>}/>}/>
           <Route path='/workout' element={<Protect child={<Workout/>}/>}/>
+          <Route path='/myworkouts' element={<Protect child={<Myworkouts/>}/>}/>
    
           <Route path="/protect" element={<Protect/>} />
          
